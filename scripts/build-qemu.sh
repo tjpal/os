@@ -11,7 +11,7 @@ echo "This script uses sudo to install dependencies with dnf (Fedora only)"
 echo "Press Enter to continue."
 read
 
-sudo dnf install -y git glib2-devel libfdt-devel pixman-devel zlib-devel bzip2 ninja-build python3
+sudo dnf install -y git glib2-devel libfdt-devel pixman-devel zlib-devel bzip2 ninja-build python3 capstone-devel
 
 QEMU_VERSION_TAG="v9.0.1"
 mkdir -p $TARGET_PATH
