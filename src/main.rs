@@ -3,12 +3,13 @@
 
 use core::panic::PanicInfo;
 
-#[panic_handler]
-fn panic(_info: &PanicInfo) -> ! {
-    loop {}
+mod architecture {
+    pub mod aarch64 {
+        pub mod boot;
+    }
 }
 
-#[no_mangle]
-pub extern "C" fn kernel_main() -> ! {
+#[panic_handler]
+fn panic(_info: &PanicInfo) -> ! {
     loop {}
 }
