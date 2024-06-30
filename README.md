@@ -1,4 +1,4 @@
-# What is 'Operating System'?
+# What is 'os'?
 This repository contains an operating system which is implemented in Rust and runs on a Raspberry PI 4 and 5. It is developed for educational purpose and the software design follows a novel approach which is called 'interest-driven-design'. All design and architecture decisions are driven by my interests.
 
 * The operating system is implemented in Rust, because I want to spent more time using this language.
@@ -16,7 +16,7 @@ This repository contains an operating system which is implemented in Rust and ru
 * Simple Bluetooth stack
 * UI
 
-# Initially out of scope**:
+# Initially out of scope
 * Network
 
 Basically, this project serves for me as a playground to learn new things.
